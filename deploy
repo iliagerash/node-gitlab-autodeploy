@@ -1,13 +1,7 @@
 #!/bin/bash
-## Replace your_project_name with your project name in the following line
 echo "Deploying your_project_name"
-## Replace your_project_folder with your project folder in the following line
 cd your_project_folder \
 && git pull \
 && npm i \
-## Uncomment the following line and add \ at the end of the line for AdonisJS
-## && node ace migration:run
-## Replace your_application_name with your application name in the following line
 && (pm2 restart your_application_name || true) \
-## Replace your_project_name with your project name in the following line
 && echo "your_project_name deployed successfully"
