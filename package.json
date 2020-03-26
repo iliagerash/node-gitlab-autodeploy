@@ -1,0 +1,16 @@
+{
+  "name": "autodeploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "autodeploy.js",
+  "dependencies": {
+    "node-gitlab-webhook": "^1.0.6",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
